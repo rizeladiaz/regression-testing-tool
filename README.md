@@ -10,13 +10,13 @@ First clone the package from git (git clone url}
 
 To install the package first
 
-source the jwst environment you want to run
+source the jwst environment you want to run::
 
->conda install sqlalchemy
+   conda install sqlalchemy
 
-run in the command line : 
+run in the command line:: 
 
->python setup.py install
+   python setup.py install
 
 "regression_test" should replace "check_jwst-0.7.8rc3.py" in the documentation.
 
@@ -26,8 +26,7 @@ Matt Hill wrote a script which will attempt to run a version of the build 7/cond
 Installing the code first time
 ------------------------------
 
-The source code is located in Git https://github.com/STScI-MESA/regression-testing-tool. Clone this repository in your machine.::
-
+The source code is located in Git https://github.com/STScI-MESA/regression-testing-tool. Clone this repository in your machine::
    $ git clone https://github.com/STScI-MESA/regression-testing-tool.git
 
 Once you do that, install go to the regression_testing_tool/ directory and install it
