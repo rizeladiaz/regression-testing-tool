@@ -10,9 +10,9 @@ First clone the package from git (git clone url}
 
 To install the package first
 
-source the jwst environment you want to run::
+source the jwst environment you want to run:
 
-   conda install sqlalchemy
+    conda install sqlalchemy
 
 run in the command line:: 
 
